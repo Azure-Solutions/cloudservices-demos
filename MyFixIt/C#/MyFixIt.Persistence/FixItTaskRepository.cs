@@ -25,8 +25,15 @@ namespace MyFixIt.Persistence
 {
     public class FixItTaskRepository : IFixItTaskRepository, IDisposable
     {
+
         private MyFixItContext db = new MyFixItContext();
         private ILogger log = null;
+
+        public FixItTaskRepository()
+        {
+           db = new MyFixItContext();
+           log = null;
+    }
 
         public FixItTaskRepository(ILogger logger)
         {
@@ -102,6 +109,7 @@ namespace MyFixIt.Persistence
         public async Task CreateAsync(FixItTask taskToAdd)
         {
             Stopwatch timespan = Stopwatch.StartNew();
+            db = new MyFixItContext();
 
             try {
                 db.FixItTasks.Add(taskToAdd);

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="MyFixItCloudService" generation="1" functional="0" release="0" Id="f6499c71-8e1a-4949-bb19-36206882bb15" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="MyFixItCloudService" generation="1" functional="0" release="0" Id="c0051ab3-a1ce-4f3c-931f-b3bcaaa61762" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="MyFixItCloudServiceGroup" generation="1" functional="0" release="0">
       <settings>
