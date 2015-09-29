@@ -1,0 +1,4 @@
+C:\Src\Repos\cloudservices-demos2\MyFixIt\C#\MyFixIt.Logging\bin\Debug\MyFixIt.Logging.dll
+C:\Src\Repos\cloudservices-demos2\MyFixIt\C#\MyFixIt.Logging\bin\Debug\MyFixIt.Logging.pdb
+C:\Src\Repos\cloudservices-demos2\MyFixIt\C#\MyFixIt.Logging\obj\Debug\MyFixIt.Logging.dll
+C:\Src\Repos\cloudservices-demos2\MyFixIt\C#\MyFixIt.Logging\obj\Debug\MyFixIt.Logging.pdb
