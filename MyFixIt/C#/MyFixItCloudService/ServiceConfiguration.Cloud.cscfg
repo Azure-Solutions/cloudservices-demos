@@ -3,7 +3,7 @@
   <Role name="MyFixIt.WorkerRole">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName={StorageAccountName};AccountKey={StorageAccountAccessKey}" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=pystoragemsdn;AccountKey=9kzi3rPDVMifA7770SYhgBFbINKnY9OWDxZPJTwEFgYOV+rua2dmcgNZZmGcMOMD5Homr5Ntxm9/16Wu5umhLA==" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
