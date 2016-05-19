@@ -6,6 +6,7 @@
     </LocalResources>
     <ConfigurationSettings>
       <Setting name="appdb" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" />
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
       <Setting name="StorageAccountConnectionString" />
     </ConfigurationSettings>

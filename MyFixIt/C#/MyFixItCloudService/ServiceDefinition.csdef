@@ -7,6 +7,7 @@
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
       <Setting name="appdb" />
       <Setting name="StorageAccountConnectionString" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" />
     </ConfigurationSettings>
   </WorkerRole>
 </ServiceDefinition>

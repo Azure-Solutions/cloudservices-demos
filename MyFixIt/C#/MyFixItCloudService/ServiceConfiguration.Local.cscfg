@@ -6,6 +6,7 @@
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
       <Setting name="appdb" value="Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=MyFixItTasks;Integrated Security=True" />
       <Setting name="StorageAccountConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="APPINSIGHTS_INSTRUMENTATIONKEY" value="6556f73e-7b87-4662-a4d6-38f404c0ea04" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>

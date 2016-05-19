@@ -29,10 +29,10 @@
         <Logs scheduledTransferPeriod="PT1M" scheduledTransferLogLevelFilter="Information" />
       </DiagnosticMonitorConfiguration>
     </WadCfg>
-    <StorageAccount>pystoragemsdn</StorageAccount>
+    <StorageAccount>devstoreaccount1</StorageAccount>
   </PublicConfig>
   <PrivateConfig xmlns="http://schemas.microsoft.com/ServiceHosting/2010/10/DiagnosticsConfiguration">
-    <StorageAccount endpoint="https://core.windows.net" name="pystoragemsdn" key="8bmCGvMvefQqV89dNeb5Huy2KIIEz/J9lPSel+NlD8WH/P7m+8/qaekLT3GPaiAdcVX1bnvyhLK/50UBQNStMA==" />
+    <StorageAccount name="devstoreaccount1" key="Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==" />
   </PrivateConfig>
   <IsEnabled>true</IsEnabled>
 </DiagnosticsConfiguration>

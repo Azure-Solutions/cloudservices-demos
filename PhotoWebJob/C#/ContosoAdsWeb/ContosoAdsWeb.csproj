@@ -153,6 +153,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Properties\webjobs-list.json" />
+    <None Include="Properties\PublishProfiles\ContosoAdsWeb20160519021851 - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\pyadsweb.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

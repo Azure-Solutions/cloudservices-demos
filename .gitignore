@@ -210,3 +210,9 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+*.suo
+MyFixIt/C#/MyFixIt.Persistence/bin/Debug/MyFixIt.Persistence.dll
+*.dll
+MyFixIt/C#/MyFixIt.Persistence/bin/Debug/MyFixIt.Persistence.pdb
+*.dll
+MyFixIt/C#/MyFixIt.Persistence/obj/Debug/MyFixIt.Persistence.pdb

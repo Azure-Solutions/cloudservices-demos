@@ -69,6 +69,7 @@
     <DiagnosticsConfiguration Include="MyFixIt.WorkerRoleContent\diagnostics.wadcfgx" />
   </ItemGroup>
   <ItemGroup>
+    <PublishProfile Include="Profiles\myfixiteuropeProduction.azurePubxml" />
     <PublishProfile Include="Profiles\pymyfixitProduction.azurePubxml" />
   </ItemGroup>
   <!-- Import the target files for this project template -->
