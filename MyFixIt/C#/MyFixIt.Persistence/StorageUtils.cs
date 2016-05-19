@@ -25,15 +25,8 @@ namespace MyFixIt.Persistence
         {
             get
             {
-                string account = CloudConfigurationManager.GetSetting("StorageAccountName");
-                // This enables the storage emulator when running locally using the Azure compute emulator.
-                if (account == "{StorageAccountName}")
-                {
-                    return CloudStorageAccount.DevelopmentStorageAccount;
-                }
+                string connectionString = CloudConfigurationManager.GetSetting("StorageAccountConnectionString");
 
-                string key = CloudConfigurationManager.GetSetting("StorageAccountAccessKey");
-                string connectionString = String.Format("DefaultEndpointsProtocol=https;AccountName={0};AccountKey={1}", account, key);
                 return CloudStorageAccount.Parse(connectionString);
             }
         }

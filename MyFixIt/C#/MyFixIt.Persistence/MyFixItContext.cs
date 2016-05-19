@@ -21,7 +21,7 @@ namespace MyFixIt.Persistence
     public class MyFixItContext : DbContext
     {
         public MyFixItContext()
-            : base("name=appdb")
+            : base(Microsoft.WindowsAzure.CloudConfigurationManager.GetSetting("appdb"))
         {
         }
 

@@ -10,13 +10,20 @@
 -->
 <ServiceDefinition name="MyFixItCloudService" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2015-04.2.6">
   <WorkerRole name="MyFixIt.WorkerRole" vmsize="Small">
-    <Imports></Imports>
+    <Imports>
+      <Import moduleName="Diagnostics" />
+    </Imports>
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
+      <Setting name="appdb" />
+      <Setting name="StorageAccountConnectionString" />
     </ConfigurationSettings>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="C:\Src\Repos\cloudservices-demos2\MyFixIt\C#\MyFixItCloudService\rcf\Debug\MyFixIt.WorkerRoleContent\" />
+        <SourceDirectory path="C:\src\git\cloudservices-demos\MyFixIt\C#\MyFixItCloudService\rcf\Debug\MyFixIt.WorkerRoleContent\" />
+      </Content>
+      <Content destination=".\">
+        <SourceDirectory path="C:\src\git\cloudservices-demos\MyFixIt\C#\MyFixItCloudService\ecf\MyFixIt.WorkerRoleContent\" />
       </Content>
     </Contents>
   </WorkerRole>

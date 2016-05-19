@@ -2,3 +2,8 @@ C:\Src\Repos\cloudservices-demos2\MyFixIt\C#\MyFixIt.Logging\bin\Debug\MyFixIt.L
 C:\Src\Repos\cloudservices-demos2\MyFixIt\C#\MyFixIt.Logging\bin\Debug\MyFixIt.Logging.pdb
 C:\Src\Repos\cloudservices-demos2\MyFixIt\C#\MyFixIt.Logging\obj\Debug\MyFixIt.Logging.dll
 C:\Src\Repos\cloudservices-demos2\MyFixIt\C#\MyFixIt.Logging\obj\Debug\MyFixIt.Logging.pdb
+C:\src\git\cloudservices-demos\MyFixIt\C#\MyFixIt.Logging\bin\Debug\MyFixIt.Logging.dll
+C:\src\git\cloudservices-demos\MyFixIt\C#\MyFixIt.Logging\bin\Debug\MyFixIt.Logging.pdb
+C:\src\git\cloudservices-demos\MyFixIt\C#\MyFixIt.Logging\obj\Debug\MyFixIt.Logging.csprojResolveAssemblyReference.cache
+C:\src\git\cloudservices-demos\MyFixIt\C#\MyFixIt.Logging\obj\Debug\MyFixIt.Logging.dll
+C:\src\git\cloudservices-demos\MyFixIt\C#\MyFixIt.Logging\obj\Debug\MyFixIt.Logging.pdb

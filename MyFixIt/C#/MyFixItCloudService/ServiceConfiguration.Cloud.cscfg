@@ -3,7 +3,9 @@
   <Role name="MyFixIt.WorkerRole">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=pystoragemsdn;AccountKey=9kzi3rPDVMifA7770SYhgBFbINKnY9OWDxZPJTwEFgYOV+rua2dmcgNZZmGcMOMD5Homr5Ntxm9/16Wu5umhLA==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=TODO_REPLACE;AccountKey=TODO_REPLACE" />
+      <Setting name="appdb" value="Data Source=(LocalDb)\MSSQLLocalDB;Initial Catalog=MyFixItTasks;Integrated Security=True" />
+      <Setting name="StorageAccountConnectionString" value="DefaultEndpointsProtocol=https;AccountName=TODO_REPLACE;AccountKey=TODO_REPLACE" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
